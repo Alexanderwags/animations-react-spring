@@ -14,9 +14,7 @@ export const Routes = () => {
           <Route path="/topics">
             <>topics </>
           </Route>
-          <Route path="/">
-            <>Home</>
-          </Route>
+          <Route path="/" component={Home}></Route>
         </Switch>
       </Router>
     </React.Suspense>
